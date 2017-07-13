@@ -16,7 +16,7 @@ public class User  {
     @PrimaryKey
     private int uId;
     private String uName;
-    private ArrayList<String> uGirlFriends = new ArrayList<>();
+    private ArrayList<String> uPets = new ArrayList<>();
 
     public User() {
     }
@@ -24,7 +24,7 @@ public class User  {
     public User(int id, String name, List<String> gfs){
         this.uId = id;
         this.uName = name;
-        this.uGirlFriends.addAll(gfs);
+        this.uPets.addAll(gfs);
     };
 
     public int getUId() {
@@ -43,11 +43,11 @@ public class User  {
         this.uName = uName;
     }
 
-    public void setUGirlFriends(ArrayList<String> uGirlFriends) {
-        this.uGirlFriends = uGirlFriends;
+    public void setUPets(ArrayList<String> uPets) {
+        this.uPets = uPets;
     }
 
-    public ArrayList<String> getUGirlFriends(){
-        return uGirlFriends;
+    public ArrayList<String> getUPets(){
+        return uPets;
     }
 }

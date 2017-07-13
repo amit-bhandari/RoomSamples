@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RoomSample.iml" filepath="$PROJECT_DIR$/RoomSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/storingArraylistInRoom/app.iml" filepath="$PROJECT_DIR$/storingArraylistInRoom/app.iml" />
+      <module fileurl="file://D:\AndroidStudioProjects\other_work\RoomSample\storingArraylistInRoom\app.iml" filepath="D:\AndroidStudioProjects\other_work\RoomSample\storingArraylistInRoom\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storingArraylistInRoom/storingArraylistInRoom.iml" filepath="$PROJECT_DIR$/storingArraylistInRoom/storingArraylistInRoom.iml" />
     </modules>
   </component>
 </project>

@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
                 , UserDB.class
                 , "MyDB").build();
 
-        //insert user without girlfriends
-        final ArrayList<String> gfs = new ArrayList<>();
+        //insert user without pets
+        final ArrayList<String> pets = new ArrayList<>();
         Executors.newSingleThreadExecutor().execute(new Runnable() {
             @Override
             public void run() {
-                userDB.userDAO().insertUser(new User(1,"Amit", gfs));
+                userDB.userDAO().insertUser(new User(1,"Amit", pets));
             }
         });
 
@@ -77,9 +77,9 @@ public class MainActivity extends AppCompatActivity {
 
                         //update the user and insert into db
                         //as id is primary key, record will be replaced
-                        gfs.add(name);
-                        userDB.userDAO().insertUser(new User(1,"Amit", gfs));
-                        final ArrayList<String> gfSoFar = userDB.userDAO().getUsers().get(0).getUGirlFriends();
+                        pets.add(name);
+                        userDB.userDAO().insertUser(new User(1,"Amit", pets));
+                        final ArrayList<String> gfSoFar = userDB.userDAO().getUsers().get(0).getUPets();
                         Log.v("Data",gfSoFar.get(gfSoFar.size()-1));
                         mHandler.post(new Runnable() {
                             @Override
