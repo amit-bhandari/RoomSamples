@@ -1,4 +1,11 @@
 # RoomSamples
 Samples for new Android architectural component Room!
 
-I will keep updating this repo with various Room DB samples. As of now it has only one sample to demonstrate how we can put any java object in Room DB.
+1. migrationToRoom:
+
+Migrating current db implementation in SQLiteHelper to Room Database. More info http://thetechguru.in/migrating-sqlite-implementation-room/ 
+
+
+2. storingArrayListInRoom:
+
+Store arbitary java object (arraylist in this case) in room database column using gson and converters. More info http://thetechguru.in/storing-java-objects-primitive-types-room-database/
