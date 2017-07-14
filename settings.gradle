@@ -1,1 +1,1 @@
-include ':storingArraylistInRoom', ':migrationtoroom', ':migrationToRoom', ':migratingtoroom'
+include ':storingArraylistInRoom', ':migrationtoroom', ':migrationToRoom'

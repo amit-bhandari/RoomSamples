@@ -8,7 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/migratingtoroom" />
             <option value="$PROJECT_DIR$/migrationToRoom" />
             <option value="$PROJECT_DIR$/storingArraylistInRoom" />
           </set>
