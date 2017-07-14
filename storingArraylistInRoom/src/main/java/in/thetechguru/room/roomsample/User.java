@@ -21,10 +21,10 @@ public class User  {
     public User() {
     }
 
-    public User(int id, String name, List<String> gfs){
+    public User(int id, String name, List<String> pets){
         this.uId = id;
         this.uName = name;
-        this.uPets.addAll(gfs);
+        this.uPets.addAll(pets);
     };
 
     public int getUId() {
