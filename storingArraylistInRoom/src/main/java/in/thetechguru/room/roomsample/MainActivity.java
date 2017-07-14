@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity {
                         //as id is primary key, record will be replaced
                         pets.add(name);
                         userDB.userDAO().insertUser(new User(1,"Amit", pets));
-                        final ArrayList<String> gfSoFar = userDB.userDAO().getUsers().get(0).getUPets();
-                        Log.v("Data",gfSoFar.get(gfSoFar.size()-1));
+                        final ArrayList<String> petsSoFar = userDB.userDAO().getUsers().get(0).getUPets();
+                        Log.v("Data",petsSoFar.get(petsSoFar.size()-1));
                         mHandler.post(new Runnable() {
                             @Override
                             public void run() {
-                                mNameFromDB.append("\n" + gfSoFar.get(gfSoFar.size()-1));
+                                mNameFromDB.append("\n" + petsSoFar.get(petsSoFar.size()-1));
                             }
                         });
                     }
