@@ -24,7 +24,7 @@ public class UserDbHelper extends SQLiteOpenHelper {
     // user Table Columns names
     private static final String USER_ID = "uId";
     private static final String USER_NAME = "uName";
-    private static final String USER_PH_NO = "uNumber";
+    private static final String USER_PH_NO = "uContact";
 
     public UserDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -52,7 +52,7 @@ public class UserDbHelper extends SQLiteOpenHelper {
 
         ContentValues values = new ContentValues();
         values.put(USER_NAME, user.getUName()); // Contact Name
-        values.put(USER_PH_NO, user.getUNumber()); // Contact Phone
+        values.put(USER_PH_NO, user.getUContact()); // Contact Phone
         values.put(USER_ID, user.getUId());
         // Inserting Row
         db.insert(TABLE_USERS, null, values);

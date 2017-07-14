@@ -4,20 +4,16 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by AB on 7/12/2017.
  */
 
 @Entity
-public class User  {
-
+public class User {
     @PrimaryKey
     private int uId;
     private String uName;
-    private String uNumber;
+    private String uContact;
 
     public User() {
     }
@@ -26,7 +22,7 @@ public class User  {
     public User(int id, String name, String number){
         this.uId = id;
         this.uName = name;
-        this.uNumber= number;
+        this.uContact = number;
     };
 
     public int getUId() {
@@ -45,11 +41,11 @@ public class User  {
         this.uName = uName;
     }
 
-    public String getUNumber() {
-        return uNumber;
+    public String getUContact() {
+        return uContact;
     }
 
-    public void setUNumber(String uNumber) {
-        this.uNumber = uNumber;
+    public void setUContact(String uNumber) {
+        this.uContact = uNumber;
     }
 }

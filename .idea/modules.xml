@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RoomSample.iml" filepath="$PROJECT_DIR$/RoomSample.iml" />
       <module fileurl="file://D:\AndroidStudioProjects\other_work\RoomSample\storingArraylistInRoom\app.iml" filepath="D:\AndroidStudioProjects\other_work\RoomSample\storingArraylistInRoom\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/migrationToRoom/migrationToRoom.iml" filepath="$PROJECT_DIR$/migrationToRoom/migrationToRoom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/migratingtoroom/migratingtoroom.iml" filepath="$PROJECT_DIR$/migratingtoroom/migratingtoroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/migrationToRoom/migrationtoroom.iml" filepath="$PROJECT_DIR$/migrationToRoom/migrationtoroom.iml" />
       <module fileurl="file://$PROJECT_DIR$/storingArraylistInRoom/storingArraylistInRoom.iml" filepath="$PROJECT_DIR$/storingArraylistInRoom/storingArraylistInRoom.iml" />
     </modules>
   </component>
